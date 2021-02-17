@@ -13,6 +13,7 @@ favicon: "favicon.ico" # name+extension of favicon (which must be put on the roo
 
 theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
+goat_counter: xops
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
