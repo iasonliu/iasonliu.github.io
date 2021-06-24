@@ -1,5 +1,5 @@
 ======================
-|theme_display| Sample
+Sample
 ======================
 
 This is a demo site for |theme_display|, generated as part of
@@ -36,7 +36,6 @@ The :doc:`kitchen-sink/index` section contains pages that contains basically
 everything that you can with Sphinx "out-of-the-box". Browsing through that
 section should give you a good idea of how stuff looks in this theme.
 
-|theme_documentation_message|
 
 Navigation
 ==========
