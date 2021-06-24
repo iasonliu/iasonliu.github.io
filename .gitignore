@@ -201,3 +201,4 @@ Thumbs.db
 _build/html
 .env
 _build
+.vscode
