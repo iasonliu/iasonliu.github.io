@@ -1,9 +1,4 @@
-.. sphinx-intro-turoial documentation master file, created by
-   sphinx-quickstart on Wed Jun 16 11:31:09 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to sphinx-intro-turoial's documentation!
+XOps Fun
 ================================================
 .. toctree::
    :maxdepth: 2
