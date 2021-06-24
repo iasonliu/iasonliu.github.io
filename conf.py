@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx-intro-turoial'
+project = 'XOps Fun'
 copyright = '2021, xiangxu'
 author = 'xiangxu'
 
