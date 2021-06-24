@@ -1,0 +1,289 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Paragraph Level Markup" href="paragraph-markup.html" /><link rel="prev" title="Sample" href="../index.html" />
+
+    <meta name="generator" content="sphinx-4.0.2, furo 2021.06.18.beta36"/>
+        <title>Kitchen Sink - XOps Fun</title>
+      <link rel="stylesheet" href="../_static/styles/furo.css?digest=9b17055c4366e8b2949c66d6a9d8b0efe4dbaa60">
+    <link rel="stylesheet" href="../_static/pygments.css">
+    
+
+
+<style>
+  :root {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+
+  /* For allowing end-user-specific overrides */
+  .override-light {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  .override-dark {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+</style><link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css" />
+    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="../_static/pygments_dark.css">
+    <link rel="stylesheet" href="../_static/styles/furo-extensions.css?digest=ee12cdd73c4bbac24afec78d92c4afd7c2d8ea7f"></head>
+  <body dir="">
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z"/>
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">XOps Fun</div></a>
+    </div>
+    <div class="header-right">
+      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">XOps Fun</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html">
+  <input class="sidebar-search" placeholder=Search name="q">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Kitchen Sink</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html">Paragraph Level Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html">API documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lists-and-tables.html">Lists &amp; Tables</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">This is a caption</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../placeholder-one.html">Placeholder Page One</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../placeholder-two.html">Placeholder Page Two</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../really-long-title.html">This is just a page with a really long title for checking how the theme handles these situations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../long-page.html">Long Page</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://www.sphinx-doc.org">External Link</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional "hidden" Pages</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../placeholder-three.html">Placeholder Page Three</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../placeholder-four.html">Placeholder Page Four</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://sphinx-themes.org">Sphinx Theme Gallery</a></li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <main class="main">
+    <div class="content">
+      <article role="main">
+        <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+        </label>
+        <section id="kitchen-sink">
+<h1>Kitchen Sink<a class="headerlink" href="#kitchen-sink" title="Permalink to this headline">¶</a></h1>
+<p>This section showcases the various elements that Sphinx supports out-of-the-box.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="paragraph-markup.html">Paragraph Level Markup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#inline-markup">Inline Markup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#math">Math</a></li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#meta">Meta</a></li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#blocks">Blocks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#literal-blocks">Literal Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#line-blocks">Line Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#block-quotes">Block Quotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#doctest-blocks">Doctest Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#code-blocks">Code Blocks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="paragraph-markup.html#emphasized-lines-with-line-numbers">Emphasized lines with line numbers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#sidebar">Sidebar</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#code-with-sidebar">Code with Sidebar</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#references">References</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#footnotes">Footnotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#citations">Citations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#glossary">Glossary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#targets">Targets</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#directives">Directives</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#contents">Contents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#centered-text">Centered text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#images-figures">Images &amp; Figures</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="paragraph-markup.html#images">Images</a></li>
+<li class="toctree-l4"><a class="reference internal" href="paragraph-markup.html#figures">Figures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#admonitions">Admonitions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#topics-sidebars-and-rubrics">Topics, Sidebars, and Rubrics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#target-footnotes">Target Footnotes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#replacement-text">Replacement Text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="paragraph-markup.html#compound-paragraph">Compound Paragraph</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="paragraph-markup.html#download-links">Download Links</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#asyncio"><code class="docutils literal notranslate"><span class="pre">asyncio</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lists-and-tables.html">Lists &amp; Tables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="lists-and-tables.html#lists">Lists</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#enumerated-lists">Enumerated Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#definition-lists">Definition Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#option-lists">Option Lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#field-list">Field list</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#bullet-lists">Bullet Lists</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="lists-and-tables.html#simple">Simple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="lists-and-tables.html#complex">Complex</a></li>
+<li class="toctree-l4"><a class="reference internal" href="lists-and-tables.html#second-list-level">Second list level</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="lists-and-tables.html#but-deeper-down-the-rabbit-hole">But deeper down the rabbit hole</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#hlists">Hlists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#numbered-list">Numbered List</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="lists-and-tables.html#tables">Tables</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#grid-tables">Grid Tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="lists-and-tables.html#giant-tables">Giant Tables</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="lists-and-tables.html#list-tables">List Tables</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+      </article>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="paragraph-markup.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Paragraph Level Markup</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../index.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
+        </div>
+
+        <div class="related-information">
+              Copyright &#169; 2021, xiangxu
+            |
+            Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
+              and
+              <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+              <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
+            |
+            <a class="muted-link" href="../_sources/kitchen-sink/index.rst.txt"
+               rel="nofollow">
+              Show Source
+            </a>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer no-toc">
+      
+      
+      
+    </aside>
+  </main>
+</div>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
+</html>
