@@ -8,8 +8,8 @@ pwd ls -lah
 export SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)
 
 # Install #
-python3 -m pip install -U Sphinx==4.0.2
-python3 -m pip install -U furo
+python -m pip install -U Sphinx==4.0.2
+python -m pip install -U furo
 
 
 # BUILD DOCS #
